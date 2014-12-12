@@ -1,0 +1,31 @@
+{
+  "name": "sumobot",
+  "version": "0.1.0",
+  "description": "SumoBot class for Johnny-Five",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwaldron/sumobot"
+  },
+  "keywords": [
+    "Johnny-Five",
+    "Arduino",
+    "Electric",
+    "Imp",
+    "Intel",
+    "Galileo",
+    "Intel",
+    "Edison",
+    "BeagleBone",
+    "Black"
+  ],
+  "author": "Rick Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwaldron/sumobot/issues"
+  },
+  "homepage": "https://github.com/rwaldron/sumobot"
+}
