@@ -2,8 +2,6 @@ module.exports = function(five) {
   return function() {
     function Sumobot(opts) {
 
-      this.center = opts.center || 90;
-
       if (typeof opts.right === "number") {
         opts.right = new five.Servo({
           board: opts.board,
@@ -33,8 +31,8 @@ module.exports = function(five) {
 
       this.speed = speed;
 
-      this.servos.right.ccw(speed);
-      this.servos.left.cw(speed);
+      this.servos.right.ccw(this.speed);
+      this.servos.left.cw(this.speed);
 
       return this;
     };
