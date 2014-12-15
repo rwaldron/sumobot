@@ -2,7 +2,8 @@ module.exports = function(five) {
   return function() {
     function Sumobot(opts) {
 
-      if (typeof opts.right === "number") {
+      if (typeof opts.right === "number" ||
+          typeof opts.right === "string") {
         opts.right = new five.Servo({
           board: opts.board,
           pin: opts.right,
@@ -10,7 +11,8 @@ module.exports = function(five) {
         });
       }
 
-      if (typeof opts.left === "number") {
+      if (typeof opts.left === "number" ||
+          typeof opts.left === "string") {
         opts.left = new five.Servo({
           board: opts.board,
           pin: opts.left,

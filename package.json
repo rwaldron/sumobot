@@ -1,6 +1,6 @@
 {
   "name": "sumobot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "SumoBot class for Johnny-Five",
   "main": "index.js",
   "scripts": {
